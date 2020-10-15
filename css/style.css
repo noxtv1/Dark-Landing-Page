@@ -48,13 +48,13 @@ h1, p {
 /* INTRO STYLE */
 
 .introImg {
-    width: 70%;
+    width: 100%;
 }
 section h1 {
     font-size: xx-large;
 }
 .top-container {
-    max-width: 550px;
+    max-width: 650px;
     margin: auto;
     z-index: 10;
     position: relative;
@@ -90,17 +90,6 @@ section button {
 
 
 /* CONTENT STYLE  */
-/* content::before {
-    content: "";
-    z-index: 0;
-    display: block;
-    position: absolute;
-    top: 470px;
-    height: 229px;
-    width: 100%;
-    background-size: 100% 100% ;
-    background-image: url(../images/bg-curvy-desktop.svg);
-} */
 
 content {
     width: 100%;
@@ -111,7 +100,7 @@ content {
 .container {
     position: relative;
     max-width: 90%;
-    margin: 50px auto auto auto;
+    margin: 140px auto auto auto;
 }
 
 .box-container {
@@ -134,7 +123,7 @@ content {
     justify-content: center;
     align-items: center;
     margin: auto auto 50px auto;
-    padding-top: 50px;
+    padding-top: 10rem;
     flex-flow: wrap;
 }
     .stay-container .box:nth-child(1) {
@@ -174,7 +163,7 @@ content {
     justify-content: center;
     flex-wrap: wrap;
     width: 100%;
-    padding-top: 50px;
+    padding-top: 10rem;
 }
     .quote-container .box {
         position: relative;
@@ -236,7 +225,7 @@ content {
     border-radius: 5px;
     min-width: 40%;
 }
-}   
+
     .early-container h2 {
         margin: 0;
     }
@@ -344,6 +333,9 @@ footer img {
     }
     #header{
         padding: 2rem;
+    }
+    .container {
+        margin-top: 50px;
     }
 
 }
